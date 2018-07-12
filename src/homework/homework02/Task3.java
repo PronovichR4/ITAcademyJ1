@@ -1,4 +1,4 @@
-package homework.homework01;
+package homework.homework02;
 /*
 Created by R4
 Написать программу, вычисляющую корни квадратного уравнения вида ax ² + bx + c = 0, где a, b и c - вводимые

@@ -1,4 +1,4 @@
-package homework.homework01;
+package homework.homework02;
 /*
 Created by R4
 Имеются два дома размерами a на b и c на d. Размеры вводятся польователем с консоли.
