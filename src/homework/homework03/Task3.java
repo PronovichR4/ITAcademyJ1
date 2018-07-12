@@ -32,6 +32,5 @@ public class Task3 {
         System.out.println("Сумма осадков за данный период: "+ summa);
         System.out.println("Среднее количество осадков за данный период: "+srednee);
         System.out.println("Максимальное количество дневных осадков за этот период: "+osadkitemp);
-
     }
 }

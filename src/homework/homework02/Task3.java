@@ -53,7 +53,6 @@ public class Task3 {
         } else if (isZero(d)) {
             double x = -(b / 2 * a);
             System.out.println("Oba korni ravni:" + x);
-
         } else {
             double x1 = (-b + Math.sqrt(b * b - 4 * a * c)) / 2 * a;
             double x2 = (-b - Math.sqrt(b * b - 4 * a * c)) / 2 * a;

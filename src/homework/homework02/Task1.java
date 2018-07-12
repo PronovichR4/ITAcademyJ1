@@ -12,13 +12,11 @@ Created by R4
 */
 public class Task1 {
 
-
         public static void main(String args[]) {
             Scanner sc = new Scanner(System.in);
             int day = sc.nextInt();
             int month = sc.nextInt();
             int year = sc.nextInt();
-
             nextday(day, month, year);
         }
         static void nextday(int day, int month, int year) {

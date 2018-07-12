@@ -13,7 +13,6 @@ public class Task2 {
         Scanner scanner = new Scanner(System.in);
         int f = scanner.nextInt();
         fibonachi(f);
-       // System.out.println(fib(f));
     }
 
     static void fibonachi(int f) {
@@ -31,5 +30,4 @@ public class Task2 {
             }
         }
     }
-
 }

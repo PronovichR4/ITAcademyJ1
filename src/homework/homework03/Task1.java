@@ -1,5 +1,6 @@
 package homework.homework03;
 /*
+Created by R4
 Написать программу, вычисляющую сумму цифр введённого пользователем целого числа.
  */
 
@@ -18,7 +19,6 @@ public class Task1 {
             int s1 = n % 10;
             s += s1;
             n = n / 10;
-
         }
         return s;
     }
