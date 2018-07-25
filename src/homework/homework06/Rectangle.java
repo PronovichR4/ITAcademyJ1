@@ -1,20 +1,20 @@
 package homework.homework06;
 
 public class Rectangle {
-    private Point pointA;
-    private Point pointB;
 
-    public Rectangle(Point pointA, Point pointB) {
-        this.pointA = pointA;
-        this.pointB = pointB;
+    private Point leftUpPoint;
+    private Point rightDownPoint;
+
+    public Rectangle(Point leftUpPoint, Point rightDownPoint) {
+        this.leftUpPoint = leftUpPoint;
+        this.rightDownPoint = rightDownPoint;
     }
 
-    public double areaRectangle() {
-        double a = Math.abs(pointA.getX() - pointB.getX());
-        return a * Math.sqrt((Math.pow(pointA.distance(pointB), 2) - Math.pow(a, 2)));
+    public int area (Point leftUpPoint, Point rightDownPoint){
+        return Math.abs((rightDownPoint.getX()-leftUpPoint.getX())*(leftUpPoint.getY()-rightDownPoint.getY()));
     }
 
-    public double lengthDiagonal() {
-        return pointA.distance(pointB);
+    public double diagonalLength (){
+        return Math.abs(leftUpPoint.distance(rightDownPoint));
     }
 }
