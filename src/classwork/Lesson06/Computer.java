@@ -16,6 +16,7 @@ public class Computer {
         this.ram = ram;
 
     }
+
     public String getName() {
         return name;
     }
@@ -41,15 +42,12 @@ public class Computer {
     }
 
 
-
-
-
     public void load() {
         System.out.println("Я загрузился");
     }
 
     public void on() {
-        System.out.println("Я включился: " + name + " " + hdd.getHdd() + " " + ram + " ");
+        System.out.println("Я включился: " + name + " " + hdd.getHdd() + " " + ram.getRam() + " ");
     }
 
     public void off() {
